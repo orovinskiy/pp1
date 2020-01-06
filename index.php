@@ -10,13 +10,9 @@
     ini_set("display_errors",1);
     error_reporting(E_ALL);
 
+    require "function.php";
     $numbers = array(7,9,8,9,8,8,6);
 
-    function printArr($array){
-        for($i = 0; $i < count($array); $i++){
-            echo "<p>$array[$i]</p><br>";
-        }
-    }
 ?>
 <!doctype html>
 <html lang="en">
