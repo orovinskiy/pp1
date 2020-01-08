@@ -28,6 +28,16 @@
     <?php
         printArr($numbers);
         largest($numbers);
+        echo "<p>[";
+        foreach (removeDups($numbers) as $single){
+            echo "$single,";
+        }
+    echo "]</p>";
+    echo "<p>[";
+    foreach (distribution($numbers) as $single=>$value){
+        echo "$single=>$value, ";
+    }
+    echo "]</p>";
     ?>
 </body>
 </html>
