@@ -27,6 +27,7 @@
     <h1>Pair Programing 1</h1>
     <?php
         printArr($numbers);
+        largest($numbers);
     ?>
 </body>
 </html>
